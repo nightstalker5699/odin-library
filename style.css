@@ -23,8 +23,8 @@ body .see{
     background-color: green;
     flex:1 1 200px;
     max-width: 350px;
-    height: 200px;
-    padding:20px;
+    height: 250px;
+    padding-top:30px;
     box-sizing: border-box;
     border-radius: 15px;
     border: black solid 2px;
