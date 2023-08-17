@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: gray;
+    height: 95vh;
+}
+body .see{
+    display:none
+}
+.main{
+    height: 90%;
+}
+.library{
+    padding:20px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.book{
+    position: relative;
+    background-color: green;
+    flex:1 1 200px;
+    max-width: 350px;
+    height: 200px;
+    padding:20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: black solid 2px;
+}
+.detailscon{
+    line-height: 30px;
+    font-size: 1.5rem
+}
+.details{
+    display:block
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+.form{
+    background-color: aquamarine;
+    border:2px solid black;
+    border-radius: 20px;
+    text-align: left;
+}
+.box{
+    margin:20px
+}
